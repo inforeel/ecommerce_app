@@ -1,1 +1,9 @@
 <h1>Store Index</h1>
+
+<p>Here are all of the different stores in which to shop!</p>
+
+<% @stores.each do |store| %>
+
+<div><%= store.store_name %></div>
+
+<% end %>
